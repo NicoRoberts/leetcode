@@ -1,4 +1,6 @@
 package naive;
+// Time Complexity - O(m*n)
+// Space Complexity - O(1)
 public class Solution {
 
     public int[] merge(int[] nums1, int m, int[] nums2, int n) {
