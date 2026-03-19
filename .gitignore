@@ -2,6 +2,7 @@
 *.class
 *.jar
 *.war
+*.pyc
 
 # IDE files
 .idea/
