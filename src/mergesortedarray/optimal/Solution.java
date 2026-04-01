@@ -1,4 +1,4 @@
-package java;
+package mergesortedarray.optimal;
 // Time Complexity - O(m + n)
 // Space Complexity - O(1)
 

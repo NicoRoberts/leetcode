@@ -1,4 +1,4 @@
-package naive;
+package mergesortedarray.naive;
 // Time Complexity - O(m*n)
 // Space Complexity - O(1)
 public class Solution {
@@ -14,7 +14,7 @@ public class Solution {
         for (int i = 0; i < n; i++) {
             boolean merged = false;
             int swap = nums1[mergedIndex];
-            
+
             while (current < end) {
                 if (!merged && (nums1[current] >= nums2[i])) {
                   swap = nums1[current];

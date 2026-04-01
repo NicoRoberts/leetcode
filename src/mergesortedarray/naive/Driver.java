@@ -1,4 +1,5 @@
-package naive;
+package mergesortedarray.naive;
+
 public class Driver {
 
     public static void main(String[] args) {
