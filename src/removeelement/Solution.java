@@ -1,4 +1,4 @@
-package removeelement.optimal;
+package removeelement;
 
 // Speed - O(n)
 // Space - O(1)

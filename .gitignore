@@ -3,6 +3,7 @@
 *.jar
 *.war
 *.pyc
+*.pyo
 
 # IDE files
 .idea/
@@ -15,3 +16,22 @@ target/
 out/
 build/
 bin/
+
+# C++
+main
+*.dSYM/
+*.o
+*.out
+*.a
+*.so
+
+# Python
+__pycache__/
+.pytest_cache/
+
+# OS
+.DS_Store
+
+# Editor
+*.swp
+*.swo
