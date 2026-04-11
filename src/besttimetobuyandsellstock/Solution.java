@@ -18,10 +18,9 @@ public class Solution {
                 maxProfit = prices[i] - min;
             } else if (prices[i] < min) {
                 min = prices[i];
-            }
-
-            
+            }         
         }
         return maxProfit;
     }
 }
+

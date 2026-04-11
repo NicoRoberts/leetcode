@@ -1,6 +1,8 @@
 #include "Solution.h"
 #include <vector>
 #include <algorithm>
+// Speed - O(n / 2) + O(n / 2) + O(n / 2) = O(n)
+// Space O(1)
 
 void Solution::rotate(std::vector<int>& nums, int k) {
     int kMod = k % nums.size();
