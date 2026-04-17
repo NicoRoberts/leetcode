@@ -2,6 +2,8 @@
 
 #include <vector>
 
+// Space O(1)
+// Time O(n)
 int Solution::maxProfit(std::vector<int>& prices) {
         // Input: prices = [7,1,5,3,6,4]
     // Output: 7
