@@ -1,6 +1,7 @@
 from typing import List
 
-
+# Space O(1)
+# Speed O(n) where n is the nums length
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         #each index represents max jump length
